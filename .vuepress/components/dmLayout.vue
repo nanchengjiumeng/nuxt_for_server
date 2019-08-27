@@ -5,17 +5,23 @@
 </template>
 
 <script type='text/ecmascript-6'>
-  import copy from 'copy-text-to-clipboard';
+ 
+  
   export default {
     data() {
       return {}
     },
-    mounted() {
-     var pres = document.querySelectorAll("pre.language-js");
-     pres = Array.from(pres);
-     pres.forEach(function(pre){
-       copy("123")
-     })
+    updated() {
+      var pres = document.querySelectorAll(".language-js.extra-class");
+      var _this = this;
+      
+      pres.forEach(function(pre, item) {
+        pre.addEventListener("click", function(e) {
+          var text = pre.innerText;
+          _this.$copy(text);
+          _this.$message.info('代码复制成功');
+        })
+      })
     }
   }
 </script>
