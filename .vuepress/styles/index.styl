@@ -8,6 +8,10 @@
 .theme-default-content:not(.custom) > h2{
     margin-bottom: 15px;
 }
+.theme-default-content:not(.custom) > h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 .theme-default-content>ul{
     padding-left: 0;
 }
@@ -15,12 +19,23 @@
 .theme-default-content>ul>li>p:first-child{
     font-weight: bold;
 }
+.theme-default-content>ul>li>p:first-child::before{
+    content: "🦍"
+}
 
-.theme-default-content *{
+.theme-default-content>ul,.theme-default-content>div{
     overflow: auto;
 }
+.theme-default-content pre, .theme-default-content pre[class*="language-"]{
+    padding: 0 1.5rem;
+    }
 .theme-default-content  div[class~="language-js"]{
     margin-bottom: 15px;}
 .theme-default-content  div[class~="language-js"]:before {
     content:  "点击复制"
+}
+.theme-default-content  div[class~="language-js"] .comment{
+    display block
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
