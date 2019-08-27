@@ -8,7 +8,7 @@ layout: dmLayout
 
 `dm.CreateFoobarCustom`根据指定的位图创建一个自定义形状的窗口
 
-- 示例:
+- **示例**:
 
 ```js
 foobar = dm.CreateFoobarCustom(hwnd,10,10,"菜单.bmp","FF00FF",1.0)
@@ -38,11 +38,12 @@ foobar = dm.CreateFoobarCustom(hwnd,10,10,"菜单.bmp","FF00FF",1.0)
 
  ## dm.CreateFoobarEllipse 创建一个椭圆窗口
 
-- 示例:
+- **示例**:
 
-    ```js
+```js
         foobar = dm.CreateFoobarEllipse(hwnd,10,10,200,200)
-    ```
+```
+
 - 返回值: 
     
     **整形数** : 创建成功的窗口句柄
@@ -69,9 +70,9 @@ foobar = dm.CreateFoobarCustom(hwnd,10,10,"菜单.bmp","FF00FF",1.0)
 
 - 示例:
 
-    ```js
+```js
 
-    ```
+```
 
 - 函数原型:
 
