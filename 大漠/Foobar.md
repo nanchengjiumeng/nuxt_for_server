@@ -36,7 +36,7 @@ foobar = dm.CreateFoobarCustom(hwnd,10,10,"菜单.bmp","FF00FF",1.0)
 
     - `sim` **双精度浮点数**: 透明色的相似值 0.1-1.0
 
- ## dm.CreateFoobarEllipse 创建一个椭圆窗口
+## dm.CreateFoobarEllipse 创建一个椭圆窗口
 
 - **示例**:
 
@@ -82,3 +82,4 @@ foobar = dm.CreateFoobarCustom(hwnd,10,10,"菜单.bmp","FF00FF",1.0)
 - 返回值: 
 
     - 
+
