@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev --no-clear-screen --no-cache",
-    "build": "vuepress build  --no-cache"
+    "build": "vuepress build",
+    "v": "vuepress build -help"
   },
   "repository": {
     "type": "git",
