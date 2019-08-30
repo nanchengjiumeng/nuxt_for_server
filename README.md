@@ -1,5 +1,5 @@
 [大漠api v3.1233](/大漠/Foobar.html)
-[按键精灵](/按键精灵/键盘命令.html)
+[按键精灵](/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/%E4%BA%8B%E4%BB%B6%E5%AD%90%E7%A8%8B%E5%BA%8F.html)
 
 
 
