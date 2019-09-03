@@ -27,36 +27,18 @@ module.exports = config => {
   // console.log(config);
 
   return {
+    title: "按键系列文档",
+    head: [
+      ['link', { rel: 'icon', href: 'https://official-web.oss-cn-beijing.aliyuncs.com/active/Opencard/cant_click.png' }]
+    ],
     description: "Just playing around",
     palette: path.resolve(__dirname, './palette.styl'),
     themeConfig: {
+      nav: [
+        { text: '按键精灵', link: '/按键精灵/按键精灵基本命令/事件子程序.html#onscriptexit-脚本停止事件子程序' },
+      ],
       sidebar:{ 
-        // "/按键精灵/":[
-        //   {
-        //     title: '插件命令',   // 必要的
-        //     path: '插件命令/办公文档',      // 可选的, 应该是一个绝对路径
-        //     collapsable: true, // 可选的, 默认值是 true,
-        //     sidebarDepth: 1,    // 可选的, 默认值是 1
-        //     children: [
-        //       {
-        //         title: '插件命令',   // 必要的
-        //         path: '插件命令/办公文档',      // 可选的, 应该是一个绝对路径
-        //         collapsable: true, // 可选的, 默认值是 true,
-        //         sidebarDepth: 1,    // 可选的, 默认值是 1
-        //         children: [
-        //             "插件命令/办公文档"
-        //         ]
-        //       },
-        //     ]
-        //   },
-           
-        //     "插件命令/办公文档",
-        //     "插件命令/窗口"
-            
-          
-        // ]
         "/按键精灵/":[sidebarGenerate("../按键精灵")]
-      //   // "/大漠/":sidebarGenerate("按键精灵")
       }
     }
   };
